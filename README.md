@@ -2,6 +2,10 @@
 
 **DunkVerse** is a blockchain-powered sports engagement platform that combines AI-generated quizzes, NFT auctions, GameFi, and SocialFi to create an immersive and interactive experience for sports fans.
 
+![Screenshot 2025-01-01 232234](https://github.com/user-attachments/assets/0ba29509-c9e9-400d-8152-047278da6b00)
+
+![Screenshot 2025-01-01 232257](https://github.com/user-attachments/assets/034235a5-5c39-4563-88b3-92bd31187393)
+
 ## Features 🚀
 
 ### 1. **NFT-Powered Content**
@@ -62,9 +66,13 @@
    - Connect Wallet via MetaMask.
    - Receive $FTO tokens if you have a metamask-to-metamask invitation.
 
+![Screenshot 2025-01-01 232411](https://github.com/user-attachments/assets/67c0dcd8-6502-4123-8cce-eba32613e35e)
+
 2. **Participation**:
    - Join AI-generated quizzes.
    - Bet on outcomes using $FTO.
+
+![Screenshot 2025-01-01 232453](https://github.com/user-attachments/assets/8a8d0b96-edda-43de-9bab-e8b51af2da90)
 
 3. **Rewards**:
    - Win AI-generated NFTs and leaderboard points.
@@ -73,6 +81,8 @@
 4. **Social Engagement**:
    - Invite friends and earn rewards.
    - Compete on the leaderboard.
+
+![Screenshot 2025-01-01 232528](https://github.com/user-attachments/assets/074c29ed-9ac1-4f81-86af-6f7d57302403)
 
 ## Steps
 
@@ -90,6 +100,12 @@
    yarn run dev
    ```
 4. Access the application at `http://localhost:3000`.
+
+## **Business Model, Market Opportunity and Revenue**
+
+![Screenshot 2025-01-01 232600](https://github.com/user-attachments/assets/7999c4ae-d457-44e8-a6fa-773e2cc4f789)
+
+![Screenshot 2025-01-01 233000](https://github.com/user-attachments/assets/0d2b8a73-e37c-44f9-8ec6-04e70cca5df6)
 
 ## **Future Enhancements**
 - Enable more complex betting logic, build 16 new features and launch v2 in the telegram mini-app.
