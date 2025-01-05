@@ -63,8 +63,16 @@ export const useQuizContext = () => {
 };
 
 const contractAddresses = {
-  5611: { token: '0x74F50199618ab213CdBA4b07dd7dd6614DC004B3', main: '0xEb2bcb5A262904157B33895C86f7E58e445a1B3F' }, // opBNB Testnet
- // 28122024: { token: '0xb8171c4E2002Deea048477D8B337ff27F9a36687', main: '0xac13628e37628E8e8d9238F1564841cf220742a3' }, // Ancient8 Testnet
+  5611: { // OPBNB TESTNET
+    token: '0x74F50199618ab213CdBA4b07dd7dd6614DC004B3', 
+    main: '0xEb2bcb5A262904157B33895C86f7E58e445a1B3F',
+    nft: '0xb98f9e73748Ac0B5275141E878faB653b4A0cAc8'
+  }, 
+  28122024: { // ANCIENT8 TESTNET
+    token: '0xb8171c4E2002Deea048477D8B337ff27F9a36687', 
+    main: '0xac13628e37628E8e8d9238F1564841cf220742a3',
+    nft: '0x164D1bBaD8De402b80f65fCa468CacF294865ca7'
+   }, 
 };
 
 const QuizContextProvider = ({ children }: { children: ReactNode }) => {

@@ -1,4 +1,15 @@
-export const mainContractABI = [
+export const contractAddresses = {
+  5611: { // opBNB Testnet
+    token: '0x74F50199618ab213CdBA4b07dd7dd6614DC004B3',
+    main: '0xEb2bcb5A262904157B33895C86f7E58e445a1B3F',
+    nft: '0xb98f9e73748Ac0B5275141E878faB653b4A0cAc8'
+  },
+  28122024: { // Ancient8 Testnet
+    token: '0xb8171c4E2002Deea048477D8B337ff27F9a36687',
+    main: '0xac13628e37628E8e8d9238F1564841cf220742a3',
+    nft: '0xb98f9e73748Ac0B5275141E878faB653b4A0cAc8'
+  }
+};export const mainContractABI = [
 	{
 		"inputs": [
 			{
