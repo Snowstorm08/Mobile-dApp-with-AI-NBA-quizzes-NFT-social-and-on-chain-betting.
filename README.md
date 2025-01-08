@@ -19,7 +19,7 @@
 
 ### 3. **Unified Token Economy**
 - Transactions are powered by **$FTO (DunkVerse Token)**, which is equivalent to:
-  - 1 $opBNB
+  - 1 $opBNB , 1 $ETH
 - Simplifies transactions on each chain and promotes ecosystem interoperability.
 
 ### 4. **Decentralized Betting Pool**
@@ -33,12 +33,19 @@
 
 ## Deployed and Verified Contracts
 
-| Contract Name        | Description                                   | EVM on opBNB Testnet Deployed and Verified Contract Links                           |
-|----------------------|-----------------------------------------------|------------------------------------------------------------------------------------|
+| Contract Name        | Description                                   | opBNB Testnet Deployed and Verified Contract Links                               |
+|----------------------|-----------------------------------------------|----------------------------------------------------------------------------------|
 | `DunkVerse.sol`      | ERC-20 token contract for $FTO.               | https://testnet.opbnbscan.com/address/0x74F50199618ab213CdBA4b07dd7dd6614DC004B3 |
 | `BettingPool.sol`    | Handles GameFi betting logic.                 | https://testnet.opbnbscan.com/address/0xEb2bcb5A262904157B33895C86f7E58e445a1B3F |
 | `AIGeneratedNFT.sol` | Manages NFT generation, supply, and transfers.| https://testnet.opbnbscan.com/address/0xb98f9e73748Ac0B5275141E878faB653b4A0cAc8 |
 | `InviteFriends.sol`  | Manages on-chain invitation and rewards.      | https://testnet.opbnbscan.com/address/0x4d086aa65A7eA9eB094aEe92E55b9C80052fE6C2 |
+
+| Contract Name        | Description                                   | Ancient8 Testnet Deployed and Verified Contract Links                                              |
+|----------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------|
+| `DunkVerse.sol`      | ERC-20 token contract for $FTO.               | https://scanv2-testnet.ancient8.gg/address/0xb8171c4E2002Deea048477D8B337ff27F9a36687?tab=txs      |
+| `BettingPool.sol`    | Handles GameFi betting logic.                 | https://scanv2-testnet.ancient8.gg/address/0xac13628e37628E8e8d9238F1564841cf220742a3?tab=contract |
+| `AIGeneratedNFT.sol` | Manages NFT generation, supply, and transfers.| https://scanv2-testnet.ancient8.gg/address/0x164D1bBaD8De402b80f65fCa468CacF294865ca7?tab=contract |
+| `InviteFriends.sol`  | Manages on-chain invitation and rewards.      | https://scanv2-testnet.ancient8.gg/address/0x380Fdcfc444Eff5D48f3d5D7C08Fa19bE94867f2?tab=contract |
 
 ## Key Technologies
 
