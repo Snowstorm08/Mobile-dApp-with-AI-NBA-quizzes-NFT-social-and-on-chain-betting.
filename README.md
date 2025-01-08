@@ -4,7 +4,7 @@
 
 ![Screenshot 2025-01-01 232234](https://github.com/user-attachments/assets/0ba29509-c9e9-400d-8152-047278da6b00)
 
-![Screenshot 2025-01-01 232257](https://github.com/user-attachments/assets/034235a5-5c39-4563-88b3-92bd31187393)
+![Screenshot 2025-01-08 221825](https://github.com/user-attachments/assets/08d1ad1e-f969-4a13-8221-7f3193ca116d)
 
 ## Features 🚀
 
@@ -19,7 +19,7 @@
 
 ### 3. **Unified Token Economy**
 - Transactions are powered by **$FTO (DunkVerse Token)**, which is equivalent to:
-  - 1 $opBNB , 1 $ETH
+  - 1 $ETH
 - Simplifies transactions on each chain and promotes ecosystem interoperability.
 
 ### 4. **Decentralized Betting Pool**
@@ -49,7 +49,7 @@
 
 ## Key Technologies
 
-- **Blockchain**: opBNB
+- **Blockchain**: Ancient8
 - **AI**: DALL-E3 GPT OpenAI Models for real-time quiz generation
 - **Oracles**: Third-party oracles API for live Top Shots NBA match data
 - **Smart Contracts**: Solidity
@@ -58,7 +58,7 @@
 - **Wallet Integration**: RainbowKit, Wagmi, Metamask APIs
 - **Tokenomics**: ERC-20, ERC-721 standard for $FTO token and NFTs
 
-## Tokenomics on opBNB 📊
+## Tokenomics on Ancient8 📊
 
 - **Symbol**: $FTO (DunkVerse Token)
 - **Supply**: 10 billion tokens
@@ -73,7 +73,7 @@
    - Connect Wallet via MetaMask.
    - Receive $FTO tokens if you have a metamask-to-metamask invitation.
 
-![Screenshot 2025-01-01 232411](https://github.com/user-attachments/assets/67c0dcd8-6502-4123-8cce-eba32613e35e)
+![Screenshot 2025-01-08 222040](https://github.com/user-attachments/assets/83d66984-dbe9-4b9c-8bf1-2ba146d01be9)
 
 2. **Participation**:
    - Join AI-generated quizzes.
@@ -89,7 +89,7 @@
    - Invite friends and earn rewards.
    - Compete on the leaderboard.
 
-![Screenshot 2025-01-01 232528](https://github.com/user-attachments/assets/074c29ed-9ac1-4f81-86af-6f7d57302403)
+![Screenshot 2025-01-08 222128](https://github.com/user-attachments/assets/17e1575c-f15b-47d0-8256-1b05213bdf35)
 
 ## Steps
 
@@ -112,7 +112,7 @@
 
 ![Screenshot 2025-01-01 232600](https://github.com/user-attachments/assets/7999c4ae-d457-44e8-a6fa-773e2cc4f789)
 
-![Screenshot 2025-01-01 233000](https://github.com/user-attachments/assets/0d2b8a73-e37c-44f9-8ec6-04e70cca5df6)
+![Screenshot 2025-01-08 222309](https://github.com/user-attachments/assets/17a9981a-161a-4d1e-9cce-3cdd427c1365)
 
 ## **Future Enhancements**
 - Enable more complex betting logic, build 16 new features and launch v2 in the telegram mini-app.
