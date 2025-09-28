@@ -129,3 +129,5 @@ Be the Biggest SportsFi Dapp, combining Sports, SocialFi, NFTs, GameFi, AI, DeFi
 ## PitchDeck
 
 https://www.figma.com/slides/98gzTAafUW6XPPFxN1otAW/DunkVerse---opBNB?node-id=0-1&t=NjXRFN0G7XEe5qTF-1
+
+`If you have some question with this project, feel free to reach out.`
