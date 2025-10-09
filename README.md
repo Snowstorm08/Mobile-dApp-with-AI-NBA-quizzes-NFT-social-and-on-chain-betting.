@@ -48,7 +48,6 @@
 | `InviteFriends.sol`  | Manages on-chain invitation and rewards.      | https://scanv2-testnet.ancient8.gg/address/0x380Fdcfc444Eff5D48f3d5D7C08Fa19bE94867f2?tab=contract |
 
 ## Key Technologies
-
 - **Blockchain**: Ancient8
 - **AI**: DALL-E3 GPT OpenAI Models for real-time quiz generation
 - **Oracles**: Third-party oracles API for live Top Shots NBA match data
@@ -104,7 +103,6 @@
    yarn run dev
    ```
 4. Access the application at `http://localhost:3000`.
-
 ## **Business Model, Market Opportunity and Revenue**
 
 ![Screenshot 2025-01-01 232600](https://github.com/user-attachments/assets/7999c4ae-d457-44e8-a6fa-773e2cc4f789)
