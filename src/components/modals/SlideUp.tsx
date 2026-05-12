@@ -1,63 +1,93 @@
 import { Dialog, Transition } from '@headlessui/react';
-import { Fragment } from 'react';
+import { Fragment, ReactNode } from 'react';
 
 type Props = {
   open: boolean;
-  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  children: React.ReactNode | React.ReactNode[];
+  setOpen: (value: boolean) => void;
+  children: ReactNode;
 };
 
-export default function Example({ open, setOpen, children }: Props) {
+export default function BottomSheet({
+  open,
+  setOpen,
+  children,
+}: Props) {
   return (
     <Transition.Root show={open} as={Fragment}>
-      <Dialog as='div' className='relative z-10' onClose={setOpen}>
+      <Dialog
+        as="div"
+        className="relative z-50"
+        onClose={setOpen}
+      >
+        {/* Overlay */}
         <Transition.Child
           as={Fragment}
-          enter='ease-in-out duration-500'
-          enterFrom='opacity-0'
-          enterTo='opacity-100'
-          leave='ease-in-out duration-500'
-          leaveFrom='opacity-100'
-          leaveTo='opacity-0'
+          enter="transition-opacity ease-in-out duration-300"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="transition-opacity ease-in-out duration-200"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
         >
-          <div className='fixed inset-0 bg-black bg-opacity-50 transition-opacity' />
+          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm" />
         </Transition.Child>
 
-        <div className='fixed inset-0 overflow-hidden'>
-          <div className='absolute inset-0 overflow-hidden'>
-            <div className='b-w pointer-events-none fixed bottom-0 w-full'>
-              <Transition.Child
-                as={Fragment}
-                enter='transform transition ease-in-out duration-500 sm:duration-700'
-                enterFrom='translate-x-full'
-                enterTo='translate-x-0'
-                leave='transform transition ease-in-out duration-500 sm:duration-700'
-                leaveFrom='translate-x-0'
-                leaveTo='translate-x-full'
+        {/* Container */}
+        <div className="fixed inset-0 overflow-hidden">
+          <div className="absolute inset-0 flex items-end justify-center">
+            <Transition.Child
+              as={Fragment}
+              enter="transform transition ease-in-out duration-300"
+              enterFrom="translate-y-full"
+              enterTo="translate-y-0"
+              leave="transform transition ease-in-out duration-200"
+              leaveFrom="translate-y-0"
+              leaveTo="translate-y-full"
+            >
+              <Dialog.Panel
+                className="
+                  relative
+                  w-full
+                  max-w-[500px]
+                  rounded-t-2xl
+                  bg-white
+                  shadow-2xl
+                  pointer-events-auto
+                "
               >
-                <Dialog.Panel className='pointer-events-auto relative w-full'>
-                  <Transition.Child
-                    as={Fragment}
-                    enter='ease-in-out duration-500'
-                    enterFrom='opacity-0'
-                    enterTo='opacity-100'
-                    leave='ease-in-out duration-500'
-                    leaveFrom='opacity-100'
-                    leaveTo='opacity-0'
-                  >
-                    <div
-                      className='absolute top-2 left-2/4 flex h-1 w-8 -translate-x-2/4 rounded-xl bg-gray-500'
-                      onClick={() => setOpen(false)}
-                    ></div>
-                  </Transition.Child>
-                  <div className='flex w-full flex-col overflow-y-scroll rounded-xl bg-white py-6 shadow-xl mobile-demo:mx-auto mobile-demo:w-[500px]'>
-                    <div className='mx-auto mt-2 h-full w-[90vw] mobile-demo:w-[450px] '>
-                      {children}
-                    </div>
-                  </div>
-                </Dialog.Panel>
-              </Transition.Child>
-            </div>
+                {/* Drag Indicator */}
+                <button
+                  type="button"
+                  aria-label="Close panel"
+                  onClick={() => setOpen(false)}
+                  className="
+                    absolute
+                    left-1/2
+                    top-3
+                    h-1.5
+                    w-10
+                    -translate-x-1/2
+                    rounded-full
+                    bg-gray-300
+                    transition
+                    hover:bg-gray-400
+                  "
+                />
+
+                {/* Content */}
+                <div
+                  className="
+                    max-h-[90vh]
+                    overflow-y-auto
+                    px-5
+                    pb-6
+                    pt-10
+                  "
+                >
+                  {children}
+                </div>
+              </Dialog.Panel>
+            </Transition.Child>
           </div>
         </div>
       </Dialog>
